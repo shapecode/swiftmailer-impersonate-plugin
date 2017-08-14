@@ -1,0 +1,50 @@
+{
+    "name": "shapecode/swiftmailer-plugins",
+    "description": "Sets the from address for outgoing mails in swiftmailer",
+    "keywords": [
+        "swiftmailer",
+        "impersonate",
+        "from",
+        "plugin",
+        "plugins",
+        "shapecode"
+    ],
+    "type": "plugin",
+    "license": "MIT",
+    "homepage": "https://github.com/shapecode/swiftmailer-impersonate-plugin",
+    "support": {
+        "email": "support@shapeocode.de",
+        "issues": "https://github.com/shapecode/swiftmailer-impersonate-plugin/issues",
+        "source": "https://github.com/shapecode/swiftmailer-impersonate-plugin/releases",
+        "wiki": "https://github.com/shapecode/swiftmailer-impersonate-plugin/wiki"
+    },
+    "authors": [
+        {
+            "name": "Nikita Loges",
+            "homepage": "https://nikita-loges.de",
+            "email": "develop@nikita-loges.de"
+        }
+    ],
+    "require": {
+        "php": "~5.5|~7.0",
+
+        "swiftmailer/swiftmailer": "~5.0|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shapecode\\Swiftmailer\\Plugins\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shapecode\\Swiftmailer\\Plugins\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
